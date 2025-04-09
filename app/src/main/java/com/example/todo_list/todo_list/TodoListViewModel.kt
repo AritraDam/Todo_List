@@ -40,7 +40,6 @@ class TodoListViewModel @Inject constructor(
                     )
                 }
             }
-
             is TodoListEvent.DeleteTodo -> {
                 viewModelScope.launch {
                     deletedTodo = event.todo
