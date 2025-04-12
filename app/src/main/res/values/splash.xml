@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Stating" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0F5600</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_list_alt_24</item>
+        <item name="postSplashScreenTheme">@style/Theme.Todo_List</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>
